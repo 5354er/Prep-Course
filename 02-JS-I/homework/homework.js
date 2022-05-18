@@ -240,9 +240,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if (letra.length > 1) {
+     return 'Dato incorrecto';
+  }
+  if (letra === "a" || letra === "á" || letra === "e" || letra === "é" || letra === "i" || letra === "í" || letra === "o" || letra === "ó" || letra === "u" || letra === "ú") {
+     return 'Es vocal';
+} 
+     return 'Dato incorrecto';
 }
-
 
 
 // No modificar nada debajo de esta línea
