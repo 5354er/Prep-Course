@@ -1,0 +1,9 @@
+variable = var - se usa para asignarle un valor sierto texto lla sea numero o string.
+
+String = es un valor que se retorno que inicia con ('') o ("") pude ser un remero pero tiene que tener semiconlon porque no tiene valor de numero
+
+Funciones - se usan para aser que el codigo sea mas re-usable y asignarle funciones a los objetos del texto
+
+Declaraciones - if - se usan para asignar valores con condiciones (exmp. si tengo peras y escribes peras seria = true pero si escribes manzanas seria false) vasicamente condiciones
+
+Valosres Booleanos - es conciderado un funcion o declaracion que lla sea el output es true of false 
