@@ -42,7 +42,7 @@ function saludo(idioma) {
   // Tu código:
   if(idioma === 'aleman')return "Guten Tag!";
   if(idioma === 'mandarin')return "Ni Hao!";
-  if(idioma === 'ingles'return "Hello!";
+  if(idioma === 'ingles')return "Hello!";
     return "Hola!";
 }
 
@@ -190,9 +190,16 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
-  let numero = []
-  do(numero + 1) 
+  var a = numero;
+  var i = 0;
+  do {
+    i = i + 1;
+    a = a + 5;
+  }
+  while(i < 8);
+  return a;
 }
+  
 
 
 // No modificar nada debajo de esta línea
