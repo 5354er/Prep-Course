@@ -215,12 +215,12 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   var array = []
-
+  var suma = numero;
   for (var i = 0; i < 10; i++) {
-    numero = numero + 2
-    if (numero === i) break; 
+    suma = suma + 2
+    if (suma === i) break; 
     else{
-      array.push(numero)
+      array.push(suma)
     }
   }
 
